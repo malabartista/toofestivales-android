@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_login"
+            android:icon="@drawable/ic_user"
+            android:title="@string/login"/>
+        <item
+            android:id="@+id/menu_invite"
+            android:icon="@drawable/ic_users"
+            android:title="@string/invite_friends"/>
+        <item
+            android:id="@+id/menu_calendar"
+            android:icon="@drawable/calendar"
+            android:title="@string/calendar"/>
+        <item
+            android:id="@+id/menu_map"
+            android:icon="@drawable/map_marker"
+            android:title="@string/map"/>
+        <!--
+        <item
+            android:id="@+id/menu_ar"
+            android:icon="@drawable/ic_ar"
+            android:title="@string/augmented_reality"/>
+            -->
+        <item
+            android:id="@+id/menu_mail"
+            android:icon="@drawable/ic_mail"
+            android:title="@string/contact"/>
+
+    </group>
+
+    <!--
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/action_send_to_wear"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_menu"
+                android:title="@string/action_exit"/>
+        </menu>
+    </item>
+    -->
+</menu>

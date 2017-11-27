@@ -1,0 +1,736 @@
+/*
+Theme Name:         Roots - EventBuilder Directory Theme
+Theme URI:          http://roots.io/
+Description:        Roots is a starting WordPress theme made for developers that's based on HTML5 Boilerplate and Bootstrap. <a href="https://github.com/retlehs/roots/contributors">Contribute on GitHub</a>
+Version:            6.5.0
+Author:             Ben Word
+Author URI:         http://benword.com/
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+body{font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+a {color: #e84c3d;}
+a:hover, a:focus {color: #d34032;text-decoration: none;}
+.btn-primary{border-radius:0; border: none;background-color: #e84c3d}
+.btn-primary:hover{background-color: #d34032;}
+
+/** Cookies box */
+#obt_ga_banner{font-size: 10px;padding-bottom: 5px;padding-left: 10%;padding-right: 10%}
+#obt_ga_contenido h2{display:none;}
+#obt_ga_contenido p{font-size: 10px}
+#obt_ga_contenido a
+#obt_ga_contenido
+#obt_ga_boton {padding: 2px 5px;border: 1px solid #fff;}
+
+
+.navbar-nav{float: right;text-transform: uppercase;}
+
+.navbar-inverse .navbar-nav>li>a {color:#eee;letter-spacing: 1px;padding: 15px 10px;font-size: 10px}
+.navbar-inverse .navbar-nav>li>a:hover {color:#d34032}
+.navbar-brand {color:#888;transition: all .2s linear;font-weight: bold;font-size: 20pt;opacity:0.6;text-transform: uppercase;padding: 15px 0px;}
+.navbar-brand:hover {color:#fff;text-decoration: none;text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1), 0px 0px 30px rgba(255, 255, 255, 0.4);opacity:1;}
+
+/** flat navbar style **/
+/*
+ul.nav li.dropdown:hover > ul.dropdown-menu{display: block;}
+.navbar {border: none}
+.navbar-brand {color:#888;transition: all .2s linear;font-weight: bold;font-size: 20pt;opacity:0.6;text-transform: uppercase;padding: 20px 15px;}
+.navbar-brand:hover {color:#fff;text-decoration: none;text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1), 0px 0px 30px rgba(255, 255, 255, 0.4);opacity:1;}
+nav ul {list-style: none; overflow: hidden; position: relative;width:70%}
+nav ul li {float: left;}
+nav ul li a {display: block; width: 60px; height: 60px;}
+nav ul li:nth-child(1) a {background: url('http://toofestival.es/assets/img/icons/flat/search.png') no-repeat center;background-size: 32px 32px;}
+.navbar-inverse .navbar-nav>li.active:nth-child(1)>a, .navbar-inverse .navbar-nav>li:nth-child(1) a:hover {background-color: #1abc9c;}
+nav ul li:nth-child(2) span{width:500px}
+nav ul li:nth-child(2) a {background: url('http://toofestival.es/assets/img/icons/flat/star.png') no-repeat center;background-size: 32px 32px;}
+.navbar-inverse .navbar-nav>li.active:nth-child(2)>a, .navbar-inverse .navbar-nav>li:nth-child(2) a:hover {background-color: #f1c40f;}
+nav ul li:nth-child(3) a {background: url('http://toofestival.es/assets/img/icons/flat/calendar.png') no-repeat center;background-size: 32px 32px;}
+.navbar-inverse .navbar-nav>li.active:nth-child(3)>a, .navbar-inverse .navbar-nav>li:nth-child(3) a:hover {background-color: #3498db;}
+nav ul li:nth-child(4) a {background: url('http://toofestival.es/assets/img/icons/flat/location-pointer.png') no-repeat center;background-size: 26px 32px;}
+.navbar-inverse .navbar-nav>li.active:nth-child(4)>a, .navbar-inverse .navbar-nav>li:nth-child(4) a:hover {background-color: #e74c3c;}
+nav ul li:nth-child(5) a {background: url('http://toofestival.es/assets/img/icons/flat/camera.png') no-repeat center;background-size: 32px 24px;}
+.navbar-inverse .navbar-nav>li.active:nth-child(5)>a, .navbar-inverse .navbar-nav>li:nth-child(5) a:hover {background-color: #a5c078;}
+
+nav ul li a span {font-size: 30pt; position: absolute; left: 580px; top: 20px;display: none;}
+nav ul li a:hover span {display: block;}
+nav ul li:nth-child(1) a span {left:310px;}
+nav ul li:nth-child(2) a span {left:250px;}
+nav ul li:nth-child(3) a span {left:190px;}
+nav ul li:nth-child(4) a span {left:130px;}
+nav ul li:nth-child(5) a span {left:70px;}
+*/
+
+/* bootstrap 3.x global styles */
+/* do design for mobile first */
+#header-top-navbar {margin-bottom: 0px;background-color: #2d2d2d;border-color: #222;}
+#main {padding: 0px;}
+/* Wrapper for page content to push down footer */
+#wrap {min-height: 100%;height: auto !important;height: 100%;margin: 0 auto -60px;padding: 0 0 60px;}
+.btn{border-radius:0;border:none}
+
+/** footer **/
+#footer {background-color: #202020;padding: 30px 0;}
+#footer .credit {margin: 20px 0;}
+.fsocial-icon{margin-top: 12px;width: 40px;opacity:0.4;}
+.fsocial-icon:hover{opacity:1;}
+.fsocial-lnk:hover{text-decoration: none;}
+
+/** footer third parties **/
+.footer-third-parties {background-color: #f5f5f5; padding: 40px 0;-webkit-box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.1);-moz-box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.1);box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.1);text-align: center}
+.footer-third-parties h3{margin-bottom: 30px;margin-top: 0}
+.footer-third-parties a {margin-right: 20px; opacity: 0.6;}
+.footer-third-parties a:hover {opacity: 0.9;}
+.footer-third-parties .roots-logo{width: 37px;}
+.footer-third-parties .nextgen-title{font-size: 16px;font-weight: 400;color:#222;letter-spacing: 1px;line-height: 1;margin-bottom: 0;text-transform: uppercase;text-decoration: none;}
+
+/** footer widgets **/
+.footer-widgets {padding: 40px 0;background-color: #333;color:#fff;}
+.footer-widgets h3{color: #adadad;text-transform: uppercase;}
+.footer-widgets a {color: #999999;}
+.footer-widgets a:hover {color: #d34032;}
+.footer-widgets p{color:#999999;}
+
+#menu-menu-footer {list-style: none;padding-left:0px;}
+#menu-menu-footer li{margin-bottom: 5px;}
+
+.footer-widgets .widget-2 ul {list-style-type: none;padding:0}
+.footer-widgets .widget-2 li img {float: left;margin: 0 15px 0 0;height:auto;width: 120px;}
+.footer-widgets .widget-2 li {padding: 10px;overflow: auto;}
+.footer-widgets .widget-2 li:hover {background: #d34032;cursor: pointer;}
+.footer-widgets .widget-2 li:hover a,.footer-widgets .widget-2 li:hover p {color: #fff;}
+.footer-widgets .widget-2 h5 {margin-top: 5px}
+.footer-widgets .widget-2 p {font-size: 10px;}
+
+/* home - carousel */
+#carousel-home {margin-bottom: 0px;}
+#carousel-home .carousel-header{position:absolute;text-align: center;z-index:1;color:#222;position:absolute;top:0;left:0;background-color: rgba(0,0,0,0.2);width:100%;height:100%;padding:12px;color:#fff !important;z-index:2;}
+#carousel-home .carousel-header h1{font-size: 25pt;font-weight: bold;}
+#carousel-home .carousel-header p{font-size: 20pt;}
+#carousel-home .carousel-caption h3 {margin-top: 150px;}
+#carousel-home .item {min-height: 350px;background-color:#bbb;}
+#carousel-home img {position: absolute;top: 0;left: 0;min-width: 100%;height: 100%;}
+#carousel-home .carousel-caption {color: #FFFFFF;text-align: center;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);z-index: 10;left: 0;top:0;width:100%;height:100%;padding:0px;color:#fff !important;z-index:10;}
+#carousel-home .carousel-control{z-index:20;}
+.carousel-indicators{bottom:60px;}
+
+/** home - festivals **/
+#home-festivals{padding:30px 0;}
+#home-festivales-btn .btn{border-radius:0; border: none;margin-top: 10px;background-color: #e84c3d}
+#home-festivales-btn .btn:hover{background-color: #d34032;}
+#home-adsense{margin-top: 20px;}
+.adsense{margin-top:20px;}
+.adsense-bottom{margin-bottom:20px;}
+
+/** the search form **/
+.em-search-wrapper{padding:20px;}
+div.css-search{padding: 9px;border-radius: 0}
+div.css-search input.em-search-text{font-size: 18px;padding:6px}
+div.css-search div.em-search-text {background-position: 0px 2px;}
+div.css-search div.em-search-main .em-search-submit {width: 40px;top:10px;right: 10px; color: #fff;background: none;background-color: #1abc9c;border:none;border-radius: 0}
+div.css-search div.em-search-main .em-search-submit:hover {color: #fff;background: none;background-color: #1BA39C;border-color: #1BA39C;}
+
+/** style for general pages **/
+.home .wrap,.page .wrap{background-color: #f5f5f5;}
+.page-header {border-bottom: none; margin: 0px;text-align: center;padding: 20px;}
+.page-header h1{background-color:transparent;font-size: 30pt;margin-top: 0px;}
+.thin{text-align: center;font-size: 28px;font-weight: 300;color: #333;text-shadow: 0 1px 2px #eee;margin:20px 0}
+.side-lined{position: relative;}
+.side-lined:before, .side-lined:after {content: '';width: 30%;height: 1px;background: #e5e5e5;position: absolute;left: 0;top: 50%;}
+.side-lined:after {left: auto;right: 0;}
+.side-lined:before,  .side-lined:after{background: #c9cacb;width: 26%;}
+
+.page-description {margin-bottom: 30px; text-align: center}
+.page-description h3{font-size: 22pt}
+.page-description p{font-size: 14pt;color:#808080}
+
+
+/*------------------------------------------------------------------
+  Page titles
+-------------------------------------------------------------------*/
+#page-title {width: 100%;position: relative;overflow: hidden;}
+#page-title.page-title-content {background: none;margin-bottom: 30px;}
+.page-title {color: #484848;font-size: 32px !important;line-height: 72px !important;margin: 50px 0;font-weight: bold;letter-spacing: 2px;text-transform: uppercase;transition: all 0s;-moz-transition: all 0s;-webkit-transition: all 0s;-o-transition: all 0s;width: auto;}
+#page-title.page-title-content .page-title {color: #484848;}
+.item-title-block {float: left;width: 100%;margin: 50px 0;}
+.item-title-block-category {float: left;width: 100%;margin: 50px 0 90px 0;}
+#page-title.page-title-content .item-title-block,#page-title.page-title-content .item-title-block-category {margin: 10px 0 30px 0;}
+.item-title-block .page-title,.item-title-block-category .page-title {margin: 0;}
+.page-title-container {z-index: 99;position: relative;transition: all 0s;-moz-transition: all 0s;-webkit-transition: all 0s;-o-transition: all 0s;}
+.page-title-bg {position: absolute;top: 0;left: 0;bottom: 0;width: 100%;z-index: 1;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;background-position: 50% -100px;background-repeat: no-repeat;}
+.page-title-bg img {/* width: auto; *//* min-width: 100%; *//* height: auto; */opacity: 0.3;transition: all 0s;-moz-transition: all 0s;-webkit-transition: all 0s;-o-transition: all 0s;height: auto; width: auto; min-width: 100%;margin-top: 0px;}
+.item-tagline {float: left;width: auto;padding: 10px 0;text-transform: uppercase;color: #fff;font-size: 16px;font-weight: bold;border-top: solid 1px #fff;border-bottom: solid 1px #fff;}
+.event-tagline {text-transform: uppercase;color: #fff;font-size: 13px;font-weight: bold;position: relative;margin-bottom: 10px;padding-bottom: 10px;}
+.event-tagline:after {content: "";position: absolute;bottom: 0;width: 30px;border-top: solid 1px #ecf0f1;left: 50%;margin-left: -15px;}
+#page-title.page-title-content .item-tagline {border-top: solid 1px #999999;border-bottom: solid 1px #999999;color: #999999;}
+
+/** page: festivales **/
+.festivales .ratingblock{margin-top: 10px;}
+/** page: mejores-festivales **/
+.mejores-festivales .wrap{background-color: #F5F5F5;}
+.mejores-festivales .table{margin-bottom: 60px;}
+.mejores-festivales thead>tr>td {text-transform: uppercase;font-weight: 300;padding: 8px;color: white;background-color: #27ae60;position: relative;&:after {content: "";display: block;height: 5px;right: 0;left: 0;bottom: 0;background-color: #16a085;position: absolute;}}
+
+/** page: calendar **/
+#festivales-calendar {padding: 20px;padding-bottom: 40px;}
+#festivales-carteles{padding-bottom: 40px;}
+
+/* page: categories */
+.categories-list {list-style: none;}
+
+
+/** page: error **/
+.error404 .not-found-error h3, .error404 .not-found-error h4{color:#fff; text-align: center; margin-top: 40px}
+.error404 .not-found-error {background-image: url('../img/backgrounds/a-clean-well-lighted-place.png');background-size: cover;min-height:400px}
+
+/** WP FullCalendar **/
+.fc-border-separate tr.fc-last th{background: #3498db;border:none;border-radius: 0;color: #fff;}
+.fc-header .fc-button{border:none;border-radius: 0;}
+.fc-button-inner{background: #3498db;border-color:#285e8e;border-radius: 0;color: #fff;}
+.fc-button-inner:hover{background-color:#3276b1;border-color:#285e8e}
+.ui-tooltip-content img{width:100%;height: 100%;}
+.ui-tooltip, .qtip {width:300px;}
+.ui-tooltip-content > div:first-child {float: none;}
+.fc-event{padding:8px;}
+#wpfc-calendar-wrapper .ui-state-default .ui-icon {background-image: url(../../plugins/wp-fullcalendar/includes/css/ui-themes/images/ui-icons_ffffff_256x240.png)/*{iconsDefault}*/;}
+#wpfc-calendar-wrapper .fc-header-title h2{color:#3498db;font-weight: bold}
+
+/** Events Manager Calendar  **/
+table.fullcalendar{width: 100%}
+table.fullcalendar thead td{text-transform: uppercase;text-align: center;border: none;padding-bottom:20px;}
+table.fullcalendar thead a{border: 1px solid #ccc;border-radius:50%;padding:15px;}
+table.fullcalendar thead a:hover{background-color: #fff}
+table.fullcalendar td{width: 14%;border:1px solid #ccc;vertical-align: top}
+table.fullcalendar td.month_name{text-align: center;font-size: 24pt;}
+table.fullcalendar ul{list-style: none;padding-left: 0}
+table.fullcalendar li{margin-bottom: 10px;}
+table.fullcalendar img{width: 70px;height: auto}
+table.fullcalendar .media-body,table.fullcalendar .media-left,table.fullcalendar .media-right {display: table-cell;vertical-align: top;}
+table.fullcalendar .media-heading {}
+table.fullcalendar .media-body {font-size: 10px	;padding: 5px;}
+table.fullcalendar .media-body h4 {font-size: 12px	;}
+
+/** google maps **/
+.em-locations-map { width: 100% !important; height: 680px !important;}
+.em-location-map { width: 100% !important; height: 300px !important;}
+.em-location-map .ico-flat-location {width: 12px;height: 16px;margin-right: 10px!important;margin-bottom: 10px;}
+.map-container {position: relative; overflow: hidden;padding:0 20px;}
+.map-container iframe,
+.map-container object,
+.map-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.map-ballon {width:300px;margin: 0;padding: 5px}
+.map-ballon strong {margin-left:5px}
+.map-ballon p {margin-left: 20px;margin-bottom: 5px;}
+
+
+/** Festival Post **/
+
+/** festival header **/
+.festival-header {min-height: 240px;}
+.festival-header h1, .festival-header h2{text-align:center;color:#fff; }
+.festival-header h1{font-size: 30pt;font-weight:bold;text-transform: uppercase;margin-top: 30px;text-shadow: 1px 1px 1px #000;-webkit-text-shadow: 1px 1px 1px #000;-moz-text-shadow: 1px 1px 1px #000;}
+.festival-header h2{font-weight:lighter;margin: 0px auto 15px;}
+img.header-image{width:100%;position:absolute;height: 240px;}
+img.header-image.visible {visibility: visible;opacity: 1;transition: opacity 2s linear;}
+img.header-image.hiddenimg {opacity: 0;transition: opacity 4s linear;}
+.video-section .pattern-overlay {background-color: rgba(3, 3, 3, 0.49);padding: 25px 0 32px;min-height: 240px;position: absolute;top:0;}
+.video-section h1{margin: 0px;}
+/*
+.video-section h1, .video-section h2{text-align:center;color:#fff;}
+.video-section h1{font-weight:bold;text-transform: uppercase;margin: 0;text-shadow: 1px 1px 1px #000;-webkit-text-shadow: 1px 1px 1px #000;-moz-text-shadow: 1px 1px 1px #000;}
+.video-section h2{font-weight:lighter;margin: 0px auto 15px;}
+*/
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+.glyphicon-videobg{position: absolute;z-index: 50; color: #000;background-color: #fff;display: block;width: 48px;height: 48px;margin-top: 250px; border-radius: 50%;cursor: pointer;opacity: 0.4;/*display:none;*/}
+#yt-play .glyphicon{margin-left: 20px; padding-left: 17px;padding-top: 16px;}
+#yt-volume .glyphicon{margin-left: 80px;padding: 17px;}
+#scroll-to .glyphicon{left: 50%;bottom:20px; color: #fff;margin-left: -28px;padding: 15px;border: 2px solid #ffffff;background: transparent;}
+#yt-play:hover .glyphicon{opacity: 1}
+#yt-volume:hover .glyphicon{opacity: 1}
+#scroll-to:hover .glyphicon{opacity: 1}
+.sub-header{text-align: center;color:#fff;font-size: 14pt}
+
+/** festival info **/
+#festival-info {background-color: #f5f5f5; color: #555;padding: 20px 0;border-bottom: 1px solid #ccc;}
+#festival-info p{font-size: 12pt;}
+#festival-info .col-md-1{padding-left: 4px;}
+#festival-info .event-categories{list-style: none outside none;padding-left: 0;}
+#festival-info .event-categories > li:first-child {padding-left: 0;}
+#festival-info .event-categories > li {display: inline-block;margin-bottom: 20px; padding-left: 5px; padding-right: 5px;}
+#festival-info .event-categories a {background-color: #2980b9;border-radius: 0.25em;color: #FFFFFF;display: inline;font-size: 10pt;font-weight: bold;line-height: 1;padding: 0.3em 0.5em 0.3em;text-align: center;vertical-align: baseline;white-space: nowrap;}
+#festival-info .festival-social{margin-bottom: 10px;}
+.festival-fblike{margin-top: 10px}
+.fblike-header .fb-like{position: absolute;top: 20px;right:20px;color:white;}
+.marketing .fb_iframe_widget {background-color: #fff;}
+
+.glyphicon-lg{font-size:3em}
+.blockquote-box{border-right:5px solid #2980b9;margin-bottom:10px}
+.blockquote-box h4{font-weight: bold;}
+.blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#3498db;padding:20px 0;border-radius: 50%;color:#FFF}
+.blockquote-box.blockquote-primary{border-color:#357EBD}
+.blockquote-box.blockquote-primary .square{background-color:#2980b9;color:#FFF}
+.blockquote-box.blockquote-success{border-color:#4CAE4C}
+.blockquote-box.blockquote-success .square{background-color:#5CB85C;color:#FFF}
+.blockquote-box.blockquote-info{border-color:#16a085}
+.blockquote-box.blockquote-info .square{background-color:#1abc9c;color:#FFF}
+.blockquote-box.blockquote-warning{border-color:#EEA236}
+.blockquote-box.blockquote-warning .square{background-color:#f1c40f;color:#FFF}
+.blockquote-box.blockquote-danger{border-color:#D43F3A}
+.blockquote-box.blockquote-danger .square{background-color:#e74c3c;color:#FFF}
+.blockquote-box.blockquote-road {border-color:#D43F3A}
+.blockquote-box.blockquote-road .square{background-color:#e74c3c;color:#FFF}
+.blockquote-box.blockquote-artists{border-color:#B45F04}
+.blockquote-box.blockquote-artists .square{background-color:#B45F04;color:#FFF}
+.blockquote-box.blockquote-artists a{display: inline-block;margin-bottom: 5px;min-width: 10px;padding: 5px 10px;font-size: 12pt;font-weight: bold;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;background-color: #b45f04;border-radius: 10px;}
+.blockquote-box.blockquote-info .btn-weblink{  color: #fff;background-color: #1abc9c;border-color: #1abc9c;}
+
+.ratingtext {float: left;margin-top: -4px;margin-left:20px;padding: 5px;display: block;background-color: #f8f8f8;border: 4px solid #e3e3e3;color: #0093e8;font-size: 18pt;border-radius: 10px;font-weight: bold;}
+.ratingvotes {padding-top: 10px;padding-left: 93px;float:left;}
+.em-tags-list {list-style: none;}
+.em-tags-list li{display: inline-block; margin-left: 10px;}
+.em-tags-list a{display: inline-block;margin-bottom: 5px;min-width: 10px;padding: 5px 10px;font-size: 18pt;font-weight: bold;line-height: 1;color: #fff;text-align: center;white-space: nowrap;vertical-align: baseline;background-color: #d9534f;;border-radius: 10px;}
+
+/** festival-yoast-breadcrumbs **/
+/*
+#breadcrumbs{padding-top: 20px;}
+#breadcrumbs a, .breadcrumb_last {display: block;float: left;background: #3498db;position: relative;margin: 0 10px 0 0; text-decoration: none;color: #fff;text-align: center;}
+.breadcrumb_last {border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+#breadcrumbs a[href="http://toofestival.es"] {border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+#breadcrumbs a[href="http://toofestival.es"]:before{display: none}
+#breadcrumbs a:hover {background: #fa5ba5;}
+#breadcrumbs a:hover:after {border-left-color: #fa5ba5;}
+#breadcrumbs a, .breadcrumb_last {height: 30px;font-size: 16px;padding: 4px 10px 0 24px; }
+#breadcrumbs a:after{content: "";z-index: 1;position: absolute; right: -15px; top: 0;border-top: 15px solid transparent;border-bottom: 15px  solid transparent;border-left: 15px solid #3498db;}
+#breadcrumbs a:before,.breadcrumb_last:before {content: "";position: absolute; left: 0; top: 0;border-top: 15px solid transparent;border-bottom: 15px solid transparent;border-left: 15px solid #fff;}
+*/
+
+#breadcrumbs {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  width: auto;
+  margin: 30px 0 0 0 !important;
+  color: #484848;
+}
+
+#page-title #breadcrumbs {float: right;}
+#page-title.page-title-content #breadcrumbs {
+  margin-top: 0 !important;
+
+}
+.breadcrumb_last {
+  padding-left: 15px;
+}
+#breadcrumbs a {
+  padding: 0 15px;
+  width: auto !important;
+  margin: 0;
+  margin-bottom: 0 !important;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 16px;
+  color: #000;
+}
+#breadcrumbs span[typeof="v:Breadcrumb"] a:first-child{padding-left: 0;}
+#breadcrumbs span[rel="v:child"] a:first-child{padding-left: 15px;}
+#breadcrumbs a:hover {color: #d34032;}
+
+/*------------------------------------------------------------------
+  Breadcrumbs
+-------------------------------------------------------------------
+#breadcrumbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: auto;
+  margin: 90px 0 0 0 !important;
+}
+
+#page-title.page-title-content #breadcrumbs {
+  margin-top: 0 !important;
+}
+
+#breadcrumbs li {
+  float: left;
+  width: auto !important;
+  margin: 0;
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 16px;
+  color: #484848;
+}
+
+#breadcrumbs li.separator {
+  margin: 0 15px;
+}
+
+#breadcrumbs span {
+  float: left;
+  width: auto;
+  margin: 0;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  color: #484848;
+}
+
+#breadcrumbs li a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#page-title.page-title-content #breadcrumbs li a {
+  color: #999999;
+}
+
+#breadcrumbs li a:hover,
+#page-title.page-title-content #breadcrumbs li a:hover {
+  color: #2ecc71;
+}
+*/
+/* panel ticketbell */
+.ticketbell-logo{padding:8px 12px;background-color: #4E4E50;width: 120px}
+.panel_ticketbell {border:none;margin-bottom: 2px}
+.panel_ticketbell .panel-body {background: #f8a11e;border: none;padding:0;margin:0;color: white;}
+.panel_ticketbell .panel-body .rsvp {border-left: none;position: relative;background: #4E4E50;height: 100%;line-height: 26px;padding-left: 10px;font-size: 1.225em;}
+.panel_ticketbell .rsvp span {font-size: 0.5em;}
+.panel_ticketbell .rsvp span.moneda {display: block;margin-top: -5px;}
+.panel_ticketbell .rsvp span.oferta {font-size: 10px;line-height: 2px;}
+.panel_ticketbell .rsvp.offer span.number {text-decoration:line-through;}
+.panel_ticketbell .info{font-size: 12px;padding-top: 5px}
+.panel_ticketbell .info > div{font-size: 12px;}
+.panel_ticketbell .conditions_offer{padding-left: 20px;width: 20px;height: 16px;line-height: 20px;margin: 27px 0 0 14px;}
+.panel_ticketbell .conditions_offer.expanded {background: url(../img/icons/thirds/icon_desplegar.png) 0 0 no-repeat; }
+.panel_ticketbell .conditions_offer.collapsed {background: url(../img/icons/thirds/icon_replegar.png) 0 0 no-repeat;}
+.panel_ticketbell .conditions_entrance{margin: 10px 0;}
+.panel_ticketbell .btn-ticketbell{float:right;background-color:#4e4e4e;color:white;margin-top: 5px;}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .panel_ticketbell .panel-body .rsvp {font-size: 1.525em;min-height:100%;}
+    .panel_ticketbell .info{font-size: 18px;padding-top: 10px}
+    .panel_ticketbell .btn-ticketbell{margin-top: 15px;}
+}
+/* Large devices */
+@media (min-width: 1280px) {
+    .panel_ticketbell .info{font-size: 22px;}
+}
+
+/** festival content **/
+#festival-content {padding: 30px 0}
+#festival-content p {font-size: 18px;line-height: 1.5}
+#festival-content blockquote p {font-size: 17.5px;line-height: 1.5}
+
+/** festival social **/
+#festival-social {padding:20px 0;}
+#festival-social a{cursor:pointer;}
+
+/** festival comments **/
+#festival-comments {padding:20px 0;}
+
+/** festival cartel **/
+#festival-cartel {background: #111 url('../img/backgrounds/wild_oliva.png'); padding: 20px;color:white;text-align: center}
+#festival-cartel img{width:100%;height:100%;max-width: 700px}
+#festival-fbfanbox{padding: 0 20px;}
+
+/** tickets **/
+.ticket {font-weight: bold;position: relative !important;background: #8dc63f;padding: 7px 3px;margin: 0 5px 5px 0;}
+.ticket:after {content: "";position: absolute !important;z-index: 100;top: 0;left: 0;border-right: #fff 7px solid;border-bottom: #fff 7px solid;-moz-border-radius: 0 0 20px 0;-webkit-border-radius: 0 0 20px 0;border-radius: 0 0 20px 0;}
+.ticket:before {content: "";position: absolute !important;z-index: 100;top: 0;right: 0;border-left: #fff 7px solid;border-bottom: #fff 7px solid;-moz-border-radius: 0 0 0 20px;-webkit-border-radius: 0 0 0 20px;border-radius: 0 0 0 20px;}
+.ticket a {outline: 1px rgba(255,255,255,0.4) dashed;border: 1px rgba(0,0,0,0.3) dashed;padding: 4px 10px 4px 20px;text-decoration: none;color: rgba(255,255,255,0.5);white-space: nowrap;}
+.ticket a:hover {color: rgba(0,0,0,0.5);}
+.ticket a:after {content: "";position: absolute !important;z-index: 100;bottom: 0;left: 0;border-right: #fff 7px solid;border-top: #fff 7px solid;-moz-border-radius: 0 20px 0 0;-webkit-border-radius: 0 20px 0 0;border-radius: 0 20px 0 0;}
+.ticket a:before {content: "";position: absolute !important;z-index: 1000;bottom: 0;right: 0;border-left: #fff 7px solid;border-top: #fff 7px solid;-moz-border-radius: 20px 0 0 0;-webkit-border-radius: 20px 0 0 0;border-radius: 20px 0 0 0;}
+.ticket .circle {position: absolute !important;z-index: 100;border: 5px #fff solid;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;margin-top: -5px;width: 0;height: 0;top: 50%;left: 8px;-moz-box-shadow: 0 -1px 0 rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.3);-webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.3);box-shadow: 0 -1px 0 rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.3);}
+
+/** pagination **/
+.em-pagination {display: inline-block;padding-left: 0;margin: 0;position: absolute;left: 45%;}
+.em-pagination .page-numbers {position: relative;float: left;padding: 6px 12px;margin-left: -1px;line-height: 1.42857143;color: #428bca;text-decoration: none;background-color: #fff;border: 1px solid #ddd;}
+.em-pagination .page-numbers:hover {color: #2a6496;background-color: #eee;border-color: #ddd;}
+
+
+.css-cats-list .event-categories li {padding: 20px 10px;}
+.css-cats-list .event-categories li a{padding: 20px 10px;}
+
+.event-categories{list-style:none; margin:0; padding-left:5px;display: inline;}
+.event-categories li { display:inline;list-style:initial;}
+
+/** wunderlider **/
+.wunderslider-container{height: 320px;}
+
+/* Map Marker Infobox */
+.marker-holder .fa-music{float: left;}
+.marker-holder .event-categories{list-style: none outside none;padding-left: 0;}
+.marker-holder .event-categories > li:first-child {padding-left: 0;}
+.marker-holder .event-categories > li {display: inline-block;margin-bottom: 20px; padding-left: 5px; padding-right: 5px;}
+.marker-holder .event-categories a {background-color: #2980b9;border-radius: 0.25em;color: #FFFFFF;display: inline;font-size: 11px;font-weight: bold;line-height: 1;padding: 0.3em 0.5em 0.3em;text-align: center;vertical-align: baseline;white-space: nowrap;}
+.marker-holder {width: 300px;height: 100px;margin: 5px 0;}
+.marker-content {width: 300px;height: 100px;position: relative;}
+.marker-content .marker-image, .marker-content .marker-image img {float: left;position: relative;width: 100px;height: 100px;-webkit-border-radius: 0;-moz-border-radius: 0;-o-border-radius: 0;}
+.marker-content .close, #contact-ad-owner .close {cursor: pointer;background: url(../img/infobox/close.png) 50% 50% no-repeat rgb(45, 151, 222);border-radius: 10px;box-shadow: rgba(52, 73, 94, 1) 0px 0px 1px;height: 10px;margin: auto;padding: 4px;position: absolute;right: -9px;top: -9px;width: 10px;z-index: 1000;opacity: 1;filter: alpha(opacity=100);display: none;}
+.marker-content .arrow-down {background: url(../img/infobox/marker-arrow-down.png) no-repeat;bottom: -13px;left: 109px;height: 14px;position: absolute;width: 32px;display: none;}
+.marker-info-holder {position: relative;width: 200px;float: left;}
+.marker-info {width: 200px;float: left;}
+.marker-info-title {float: left;width: 180px;margin-left: 15px;font-size: 18px !important;font-weight: bold;}
+.marker-info-title a,.marker-info-title span {float: left;width: 100%;}
+.marker-meta {line-height: 18px !important;font-size: 10px !important;margin-top: 8px;font-weight: normal;}
+.marker-meta .fa {width: 20px;}
+.marker-info-extra {float: left;width: 70px;}
+.marker-info-price {float: left;width: 70px;font-weight: bold;text-align: right;line-height: 18px !important;color: #fff !important;display: none;}
+.marker-info-link {float: left;line-height: 18px !important;color: #fff !important;}
+.marker-info-link a {padding: 3px 5px;float: right;margin: 5px 0 0 0;color: #ffffff;background-color: #2d97de;line-height: 18px !important;color: #fff !important;}
+.marker-info-link a:hover {color: #ffffff;background-color: #268bce;text-decoration: none;}
+.em-map-balloon .em-map-balloon-content {font-size: 10px !important; padding: 0 !important;}
+/* Contact 7 Forms */
+
+/*
+body.contacto .wrap {background-color: #fff;font-weight: normal;line-height: 1.4em;}
+div.wpcf7{background:transparent url(../img/backgrounds/formbg.png) no-repeat bottom center;width:680px;height:540px;margin:0px auto;}
+#contact h1{color:#e73c00;text-shadow:2px 1px 2px #f9f9f9;margin-left:10px;}
+form.wpcf7-form{width:680px;height:460px;margin:0px auto;padding:60px 0px 0px 0px;clear:both;}
+form.wpcf7-form p{width:100%;float:left;clear:both;position:relative;padding:5px 0px;}
+form.wpcf7-form label{float:left;width:210px;text-align:right;margin:10px 0px 5px 0px;padding-right:10px;text-shadow:1px 1px 1px #f0f0f0;line-height:20px;}
+form.wpcf7-form input[type="text"], form.wpcf7-form input[type="email"],form.wpcf7-form textarea{line-height: normal;float:left;margin:5px 0px 5px 0px;font-family: Georgia, serif;font-size: 16px;font-style: italic;font-weight: normal;letter-spacing: normal;padding:4px 4px 6px 4px;width:398px;border:1px solid #ddd;font-weight:bold;color:#e73c00;;text-shadow:-1px 1px 1px #aaa;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;box-shadow:1px 1px 3px #000;}
+form.wpcf7-form textarea{overflow-x:hidden;height: 80px}
+form.wpcf7-form input[type="text"]:focus, form.wpcf7-form input[type="email"]:focus,form.wpcf7-form textarea:focus{-moz-box-shadow:0px 0px 8px #e73c00;-webkit-box-shadow:0px 0px 8px #e73c00;box-shadow:0px 0px 8px #e73c00;}
+form.wpcf7-form .wpcf7-submit{background:transparent url(../img/backgrounds/submit-contact.png) no-repeat bottom center;width:177px;height:83px;cursor:pointer;color:#e73c00;float:right;border:none;font-family: Georgia, serif;font-weight:bold;font-size:26px;padding-left:15px;cursor:pointer;margin:5px -10px 0px 0px;text-shadow:1px 1px 1px #000;}
+form.wpcf7-form .wpcf7-submit:hover{color:#fff;}
+form.wpcf7-form p.submit{height:40px;}
+form.wpcf7-form label span{font-size:11px;line-height:20px;float:right;margin-left:3px;font-weight:bold;color:#f0f0f0;text-shadow:1px 0px 1px #000;}
+form.wpcf7-form .wpcf7-not-valid-tip{background:transparent url(../images/errormsg.png) no-repeat top left;width:203px;height:50px;position:absolute;top:2px;right:-214px;font-size:11px;}
+form.wpcf7-form .wpcf7-not-valid-tip {margin-left:25px;line-height:40px;text-shadow:1px 1px 1px #555;}
+div.wpcf7-validation-errors {position: absolute;top: 10px;max-width: 650px;padding: 15px;margin-bottom: 20px;border: 1px solid transparent;border-radius: 4px;color: #a94442;background-color: #f2dede;border-color: #ebccd1;}
+.wpcf7-validation-errors{}
+.envelope img{position:fixed;top:50%;left:50%;margin-top:-88px;margin-left:-123px;}
+*/
+div.wpcf7{background-color: #fff;padding: 30px !important;margin-bottom: 30px}
+.wpcf7-form input, .wpcf7-form textarea,.wpcf7-form select {background: #FFFFFF;border: 1px solid #DDDDDD;color: #b2b2b6;letter-spacing:0.5px;padding: 12px 15px;outline: none;margin: 0;width:100%;max-width:100%;display: block;vertical-align: baseline;*vertical-align: middle; margin-bottom: 30px;-webkit-transition:0.2s border linear;-moz-transition:0.2s border linear;transition:0.2s border linear;-webkit-transform: translateZ(0);-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-background-clip: padding;-moz-background-clip: padding;background-clip: padding-box;-webkit-border-radius:0;-moz-border-radius:0;border-radius: 0;-webkit-appearance: none;float: left;}
+.wpcf7-form input:focus, .dark .wpcf7-form textarea:focus, .dark .wpcf7-form select:focus {-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1) inset;-moz-box-shadow: 0 1px 3px rgba(0,0,0,.1) inset;box-shadow: 0 1px 3px rgba(0,0,0,.1) inset;border-color: #cfcfcf;background-color: #FFFFFF;color: #222222;}
+.wpcf7-form input[type="submit"]{background-color: #e84c3d;border:none;color:#fff;margin-bottom: 0;text-transform: uppercase;font-weight: bold}
+.wpcf7-form input[type="submit"]:hover{background-color: #d34032;}
+div.wpcf7-mail-sent-ng {border: 2px solid #d34032;color: #d34032;}
+div.wpcf7-mail-sent-ok {border: 2px solid #398f14;color: #398f14;}
+.map-container-contact{padding:20px;background-color: #fff}
+#map-contact{width:100%; height:300px;}
+
+/* Upcoming Events List V2 (Ranking Page) */
+.upcoming-events-v2 {float: left;width: 100%;background-color: #fff;position: relative;height: auto;padding: 30px;margin-bottom: 2px;transition: all 0.2s;-moz-transition: all 0.2s;-webkit-transition: all 0.2s;-o-transition: all 0.2s;}
+.upcoming-events-big-button {position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 999;}
+.upcoming-events-v2:hover {background-color: #fdfdfd;}
+.upcoming-events-v2:before {content: "";position: absolute;height: 50%;border-left: solid 2px #d7d7d7;top: 0;left: 33px;z-index: 9999;}
+.upcoming-events-holder{margin: 30px 0;}
+.upcoming-events-holder .event-block:first-child .upcoming-events-v2:before {display: none;}
+.upcoming-events-v2:after {content: "";position: absolute;height: 50%;height: -webkit-calc(50% + 3px);height: calc(50% + 3px);border-left: solid 2px #d7d7d7;bottom: -3px;left: 33px;z-index: 9999;}
+.upcoming-events-holder .event-block:last-child .upcoming-events-v2:after {display: none;}
+.upcoming-events-pre {float: left;width: 16px;height: 16px;margin: 47px 0;background-color: #d7d7d7;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;border: solid 3px #f5f5f5;margin-left: 26px;z-index: 999;position: relativ;}
+.upcoming-events-pre,.upcoming-events-v2:before,.upcoming-events-v2:after {display: none;}
+.upcoming-events-title h6 {margin-bottom: 0;font-weight: 700;font-size: 24px;}
+.upcoming-events-title span {margin-bottom: 0;font-weight: 600;position: relative;padding-top: 9px;margin-top: 5px;float: left;color:#999999;}
+.upcoming-events-title span:before {content: "";width: 30px;border-top: solid 1px #999999;position: absolute;top: 0;left: 0;}
+.upcoming-events-title span .fa {margin-right: 8px;font-weight: 600;}
+.upcoming-events-number {text-align: center;color: #717171;}
+.upcoming-events-number h2 {font-size: 60px;line-height: 60px;color: #939393;}
+.upcoming-events-details {font-size: 12px;font-weight: 600;margin-top: 14px;}
+.upcoming-events-details .fa {margin-right: 8px;font-weight: 500;}
+.upcoming-events-avatar {float: left;width: 71px;height: 71px;margin-right: 20px;}
+.upcoming-events-avatar img {float: left;width: 100%;height: auto;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.upcoming-events-title-cont {float: left;width: 80%;width: -webkit-calc(100% - 91px);width: calc(100% - 91px);}
+
+/* Upcoming Events Grid (Masonry, Isotope) */
+#posts {margin: 30px auto 0; }
+.post {width: 100%;background-color: #fff;}
+.post h4{font-size: 14pt;font-weight: bold !important;margin-top: 0;}
+.post .caption{padding: 30px 20px 25px 20px;}
+.post .caption-data{font-size: 12px;padding: 15px 10px;height: 50px;background-color: #efefef}
+.post .caption-data .eventdates{float:left;}
+.post .caption-data .eventratings{float:right;}
+.post .event-categories{list-style:none; margin:0; padding-left:5px;display: inline;}
+.post .event-categories li { display:inline;list-style:initial;}
+.post .caption-text{text-align: center}
+#grid .post img { position:relative;display: block; padding: 0; height: auto; width: 100%;left: 0px;}
+#grid .post img { max-width: 100%;max-height: 100%;margin: auto;-webkit-transition: all 2s ease-out;transition: all 2s ease-out;}
+.post .description{margin-bottom: 20px}
+/*.ratingeventthumb{display:block;position: absolute;z-index: 1;top:10px;left:10px;}*/
+
+/** big date style: NOT used now; **/
+.big-date {background: #fcfcfc;width: 80px;float:left;margin-right: 10px;}
+.big-date .box-date {color: #323232; font-size: 30px; text-align: center; }
+.big-date .box-date span {background: #3498db;border-top: 3px solid #2980b9; font-size: 20px; font-weight: bold; color: #fff; text-transform: uppercase; display: block; padding: 6px 0 6px 0;}
+@-moz-document url-prefix() {.big-date {padding: 16px 0 0 0;}.big-date p span {padding: 9px 0 3px 0;}}
+.box-date p{margin-bottom: 0}
+.yarpp-related .box-date{margin-top: -20px}
+
+#grid {left: auto;padding-left: 30px;padding-right: 30px;}
+
+/* Medium devices */
+@media (min-width: 768px) {
+  #grid > #posts .post { width: 325px; }
+  #grid > #posts .post { width: 48%; }
+  #grid > #posts .post.cs2 { width: 100%; }
+
+  .post a.img-zoom{  display: block;width: 100%;overflow: hidden;}
+  .post a:hover img,.post  a:focus img{-webkit-transform: scale(1.3);transform: scale(1.3);}
+
+  .post {margin: 0 0 20px;}
+  .post h4{font-size: 14pt;}
+  .post .description { display:block;}
+
+  .big-date .box-date { font-size: 40px; }
+}
+
+/* Medium devices */
+@media (min-width: 992px) {
+  #grid > #posts .post { width: 250px; }
+  #grid > #posts .post { width: 32%; }
+  #grid > #posts .post.cs2 { width: 100%; }
+}
+
+/* Large devices */
+@media (min-width: 1200px) {
+  #grid > #posts .post { width: 346px; }
+  #grid > #posts .post { width: 24%; }
+  #grid > #posts .post.cs2 { width: 742px; }
+}
+
+/* Large devices min-width (1200px) + a .post margin (50px) * 2 (100px) = 1300px */
+/* 1300px gives me the clearance I need to keep the margins of the entire #grid (the
+bleed if you will) the same width as the .post margins posts (50px). Basically I'm
+being really picky about whitespace. If you don't care, no problem, just delete this.
+Can this be done with Masonry options? */
+@media (min-width: 1300px) {
+  #grid {
+    left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+  }
+
+}
+
+
+/* the responsive */
+@media (min-width: 768px) {
+    .sub-header{font-size: 18pt}
+    .thin{font-size: 40px; margin: 30px 0}
+
+    #carousel-home .carousel-header h1{font-size: 60pt;font-weight: bold}
+    #carousel-home .carousel-caption h3 {font-size: 36pt;margin-top: 250px;}
+    #carousel-home .carousel-caption p {margin-bottom: 20px;font-size: 20pt;line-height: 1.4;}
+    .carousel-caption {padding-bottom: 300px;}
+    .carousel-caption .btn {font-size: 14pt;padding: 10px;}
+    div.css-search div.em-search-main .em-search-submit {width: 100px;}
+
+    .map-container {height: 520px; padding: 0}
+
+    /** festival post **/
+    .video-section h1{font-size:60pt;margin: 40px auto 0px;}
+    .glyphicon-videobg{margin-top: 540px;display: block;}
+    #post-festival-header {padding-top:300px; height: 640px}
+    #post-festival-header .entry-title {font-size: 60pt;}
+    #festival-info {padding: 40px;padding-top:0;}
+    #festival-info p{font-size: 14pt;}
+    #festival-info h4{font-size: 18pt;}
+    #festival-info .event-categories a {font-size: 14pt;}
+    #festival-info .blockquote-artists a {font-size: 14pt;}
+    .blockquote-box{margin-bottom:25px}
+    #festival-summary {padding: 40px}
+    .ratingvotes {padding-left: 8px;}
+
+    /** wunderslider **/
+    .wunderslider-container{height: 560px;}
+
+    /** full calendar **/
+    #wpfc-calendar-wrapper {padding-top: 30px;}
+    #wpfc-calendar-wrapper *{font-size: 14pt !important;}
+    #wpfc-calendar-wrapper .fc-header-title h2{font-size: 20pt !important;}
+
+
+    /** pages **/
+    .page-header h1{margin-top: 45px;}
+    .page-description h3{font-size: 30pt;margin-bottom: 20px}
+    .page-description p{font-size: 20pt;line-height: 1.8}
+    .festivales .page-header h2{font-size: 30pt;}
+    #festivales-page .featured h2{margin: 50px 0;}
+    #festivales-page .featured p{font-size: 14pt;}
+    .mejores-festivales thead>tr>td {font-size:14pt;padding: 12px;}
+    #festival-content {padding-top: 30px}
+    .error404 .not-found-error{height:640px}
+    .error404 .not-found-error h3{margin-top: 80px}
+
+    div.wpcf7-validation-errors {top: 90px;}
+
+}
+
+/* Large devices */
+@media (min-width: 1280px) {
+    #carousel-home .carousel-header h1{font-size: 60pt}
+   .map-container {height: 680px; }
+
+    /*.video-section*/
+    #yt-volume .glyphicon{margin-top: 610px;}
+    #yt-play .glyphicon{margin-top: 610px;}
+
+    .festival-fblike{margin-top: 22px}
+
+    .footer-widgets h3{font-size:24px;}
+
+    .wunderslider-container{height: 680px;}
+
+    .page-header h1{font-size: 50pt;}
+
+    #festival-info p{font-size: 16pt;}
+
+    .error404 .not-found-error{height:780px}
+    .error404 .not-found-error h3{margin-top: 140px}
+
+    /*
+    #breadcrumbs a, .breadcrumb_last {height: 50px;font-size: 20px;padding: 10px 21px 0 33px; }
+    #breadcrumbs a:after{border-top: 25px solid transparent;border-bottom: 25px  solid transparent;border-left: 25px solid #3498db; right: -25px;}
+    #breadcrumbs a:before,.breadcrumb_last:before {border-top: 25px solid transparent;border-bottom: 25px solid transparent;border-left: 25px solid #fff;}
+    */
+    div.wpcf7-validation-errors {top: 132px;}
+
+}
+
+@media (max-width: 768px) {
+    #scroll-to {display:none;}
+    .wunderslider-container{height: 360px;}
+    #festival-info {padding: 0 0 20px 0}
+    .blockquote-box .square {width: 70px;}
+    .glyphicon-lg {font-size: 1.5em;}
+
+    .navbar-nav {margin:0px;}
+    .navbar > .container .navbar-brand {font-size: 14pt;}
+    nav ul {width:100%}
+    nav ul li {margin: 0px;}
+	.post {margin-bottom: 20px;}
+	table.fullcalendar img {width: 45px;}
+
+	/* maps */
+	.em-map-balloon .em-map-balloon-content {padding: 0!important;}
+	.map-ballon {padding: 0;}
+	.marker-content .marker-image, .marker-content .marker-image img {width: 70px;height: 70px;}
+	.marker-info-title {font-size: 15px !important;}
+	.marker-meta {font-size: 11px !important;}
+	.ssba img{width: 45px;}
+	#home-festivales-btn .btn-lg{font-size: 14px;}
+    /* small breadcrumbs
+    #breadcrumbs a, .breadcrumb_last {height: 20px;font-size: 12px;padding: 1px 6px 0 12px; }
+    #breadcrumbs a:after{border-top: 10px solid transparent;border-bottom: 10px  solid transparent;border-left: 10px solid #3498db;right: -10px;}
+    #breadcrumbs a:before,.breadcrumb_last:before {border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 10px solid #fff;}
+    */
+}
+
+
+

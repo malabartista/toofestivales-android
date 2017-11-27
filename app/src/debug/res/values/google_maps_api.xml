@@ -1,0 +1,23 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=9B:C8:1B:17:21:73:35:5A:6B:6B:FE:69:42:31:5C:E7:B4:6C:F3:5F%3Bes.toofestival.toofestivales.app
+
+    You can also add your credentials to an existing key, using this line:
+    9B:C8:1B:17:21:73:35:5A:6B:6B:FE:69:42:31:5C:E7:B4:6C:F3:5F;es.toofestival.toofestivales.app
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+
+    AIzaSyBPeWa6TgYdvKmRtsqT-YgF-e2ZVD3oaQ0
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBPeWa6TgYdvKmRtsqT-YgF-e2ZVD3oaQ0
+    </string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "550048855105",
+    "firebase_url": "https://toofestivales-d8611.firebaseio.com",
+    "project_id": "toofestivales-d8611",
+    "storage_bucket": "toofestivales-d8611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550048855105:android:259c1c2e21466822",
+        "android_client_info": {
+          "package_name": "es.toofestival.toofestivales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550048855105-t2po382h3nnecl3c14oupv8t1oji3fvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdR0QTbEOfWfUo5N99chxcJAg_EKC8HsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

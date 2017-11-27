@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_add_random_poi"
+        android:title="@string/action_add_random_poi"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_add_cardinal_pois"
+        android:title="@string/action_add_cardinal_pois"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_delete_last_poi"
+        android:title="@string/action_delete_last_poi"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_delete_all_pois"
+        android:title="@string/action_delete_all_pois"
+        app:showAsAction="never" />
+</menu>

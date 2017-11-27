@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">TooFestival.es</string>
+    <!-- loadings messages -->
+    <string name="no_posts">No hay festivales</string>
+    <string name="no_more_posts">No hay más festivales</string>
+    <string name="loading_countries">Cargando países…</string>
+    <string name="loading_categories">Cargando categorías…</string>
+    <string name="loading_posts">Cargando festivales…</string>
+    <string name="loading_post">Cargando festival…</string>
+    <string name="error_load_countries">Error al cargar países.</string>
+    <string name="error_load_categories">Error al cargar  categorías.</string>
+    <string name="error_load_posts">Error al cargar festivales.</string>
+    <string name="error_load_more_posts">Error al cargar más festivales.</string>
+    <string name="error_load_post">Error al cargar festival.</string>
+    <!-- actions -->
+    <string name="action_comments">Comentarios</string>
+    <string name="action_retry">Volver a intentar</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_send_to_wear">Enviar al reloj</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_exit">Salir</string>
+    <!-- user -->
+    <string name="user">Usuario</string>
+    <string name="login">Login</string>
+    <string name="messages">Mensajes</string>
+    <string name="contact">Contacto</string>
+    <string name="calendar">Calendario</string>
+    <string name="map">Mapa</string>
+    <string name="invite_friends">Invita a tus amigos</string>
+
+    <!-- events manager -->
+    <string name="filters">Filtros</string>
+    <string name="countries">Países</string>
+    <string name="country_prompt">Elige un país</string>
+    <string name="categories">Categorías</string>
+    <string name="category_prompt">Elige una categoría</string>
+    <string name="when_prompt">Todos</string>
+    <string name="where">Dónde</string>
+    <string name="when">Cuándo</string>
+    <string name="all_events">Todos</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="week">Esta semana</string>
+    <string name="month">Este mes</string>
+    <string name="music">Música</string>
+    <string name="date">Fecha</string>
+    <string name="popularity">Popularidad</string>
+    <string name="festival">Festival</string>
+    <string name="location">Lugar</string>
+    <string name="website">Website</string>
+    <string name="tickets">Entradas</string>
+    <string name="search_hint">Festival</string>
+    <string name="search_result">Resultados de</string>
+    <string name="title_activity_maps">Mapa</string>
+
+    <!-- mail -->
+    <string name="subject">Asunto</string>
+
+    <!-- AR -->
+    <string name="augmented_reality">Realidad Aumentada</string>
+    <string name="action_add_random_poi">Create random POI</string>
+    <string name="action_add_cardinal_pois">Add cardinal direction POIs</string>
+    <string name="action_delete_last_poi">Delete last created POI</string>
+    <string name="action_delete_all_pois">Delete all POIs</string>
+
+    <string name="fb_login_protocol_scheme">fb688752971148573</string>
+    <string name="facebook_app_id">688752971148573</string>
+
+    <string-array name="scope_arrays">
+        <item value="future">Todos</item>
+        <item value="today">Hoy</item>
+        <item value="tomorrow">Mañana</item>
+        <item value="month">Este mes</item>
+    </string-array>
+</resources>
