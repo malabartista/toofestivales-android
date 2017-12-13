@@ -1,4 +1,4 @@
-# [TooFestival.es](http://toofestival.es/) - WordPress Reader Android App
+# [TooFestival.es](http://toofestival.es/) - WordPress Reader Android App [![](https://cdn-images-1.medium.com/max/1600/1*zRmABQ0ImI4-ctuobqCGeg.png)](https://play.google.com/store/apps/details?id=es.toofestival.toofestivales)
 
 Android app to demonstrate WordPress JSON API.
 
