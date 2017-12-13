@@ -1,5 +1,4 @@
-# [TooFestival.es](http://toofestival.es/) - WordPress Reader Android App [![](https://cdn-images-1.medium.com/max/1600/1*zRmABQ0ImI4-ctuobqCGeg.png)](https://play.google.com/store/apps/details?id=es.toofestival.toofestivales)
-
+# [TooFestival.es](http://toofestival.es/) - WordPress Reader Android App
 Android app to demonstrate WordPress JSON API.
 
 ## Features
@@ -18,3 +17,5 @@ This is still a work in progress. More features are coming soon, probably...
 ## Requirements
 * [TooFestival.es WordPress site](https://github.com/malabartista/toofestivales-wordpress)
 * [JSON API WordPress plugin](https://wordpress.org/plugins/json-api/) 
+
+[![](https://cdn-images-1.medium.com/max/1600/1*zRmABQ0ImI4-ctuobqCGeg.png)](https://play.google.com/store/apps/details?id=es.toofestival.toofestivales)
